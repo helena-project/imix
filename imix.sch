@@ -17825,13 +17825,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND5" gate="G$1" pin="GND"/>
 </segment>
 </net>
-<net name="!RESET" class="0">
-<segment>
-<label x="93.98" y="55.88" size="1.778" layer="95"/>
-<pinref part="U7" gate="G$1" pin="!DSR"/>
-<wire x1="88.9" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VCC_DBG_USB_5V" class="1">
 <segment>
 <pinref part="USB2" gate="G$1" pin="VBUS"/>
@@ -17980,6 +17973,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U7" gate="G$1" pin="CBUS3"/>
 <wire x1="88.9" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
 <label x="93.98" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!RESET" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="!DTR"/>
+<wire x1="88.9" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+<label x="93.98" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
