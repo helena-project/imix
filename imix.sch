@@ -14587,8 +14587,8 @@ by exp-lbrs.ulp</description>
 <pad name="PWR@1" x="-30.628" y="-0.01" drill="1.8288"/>
 <pad name="PWR@2" x="-23.88" y="2.53" drill="1.8288" rot="R90"/>
 <pad name="PWR@3" x="-23.88" y="-2.55" drill="1.8288" rot="R90"/>
-<text x="-18.542" y="-1.27" size="2.54" layer="21" ratio="12">+</text>
-<text x="16.51" y="-1.27" size="2.54" layer="21" ratio="12">-</text>
+<text x="-18.542" y="-1.27" size="2.54" layer="51" ratio="12">+</text>
+<text x="16.51" y="-1.27" size="2.54" layer="51" ratio="12">-</text>
 <text x="-27.94" y="0" size="0.4064" layer="25">&gt;Name</text>
 <text x="-27.94" y="-1.27" size="0.4064" layer="27">&gt;Value</text>
 </package>
