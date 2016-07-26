@@ -15513,6 +15513,10 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="F6" library="GeekAmmo" deviceset="FIDUCIAL" device=""/>
 <part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="GND56" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="F7" library="GeekAmmo" deviceset="FIDUCIAL" device=""/>
+<part name="F8" library="GeekAmmo" deviceset="FIDUCIAL" device=""/>
+<part name="F9" library="GeekAmmo" deviceset="FIDUCIAL" device=""/>
+<part name="F10" library="GeekAmmo" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16426,6 +16430,10 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="JP2" gate="G$1" x="88.9" y="5.08"/>
 <instance part="F5" gate="G$1" x="88.9" y="58.42"/>
 <instance part="F6" gate="G$1" x="99.06" y="60.96"/>
+<instance part="F7" gate="G$1" x="96.52" y="45.72"/>
+<instance part="F8" gate="G$1" x="86.36" y="40.64"/>
+<instance part="F9" gate="G$1" x="96.52" y="33.02"/>
+<instance part="F10" gate="G$1" x="86.36" y="30.48"/>
 </instances>
 <busses>
 </busses>
