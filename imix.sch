@@ -178,6 +178,7 @@
 <wire x1="2.1" y1="-0.1" x2="2.1" y2="1.35" width="0.127" layer="39"/>
 <wire x1="2.1" y1="1.35" x2="-0.1" y2="1.35" width="0.127" layer="39"/>
 <wire x1="-0.1" y1="1.35" x2="-0.1" y2="-0.1" width="0.127" layer="39"/>
+<rectangle x1="-0.2" y1="-0.2" x2="2.2" y2="1.4" layer="29"/>
 </package>
 <package name="L0603">
 <description>0603 inductor footprint.</description>
