@@ -19,7 +19,7 @@ Here is the procedure for setting up a new board to be programmed:
 
 3. Clone this repository. 
 4. Attach the JLink to the MCU serial wire debug connector on the board.
-4. From the `code` directory, connect to the board with `openocd`:
+4. From the `blinky_example` directory, connect to the board with `openocd`:
   ```
   openocd -f connect.cfg
   ```
