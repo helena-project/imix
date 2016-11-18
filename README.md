@@ -15,3 +15,5 @@ This open source, feature packed board is an all-in-one development kit for Inte
 - Easily measure the power consumption of each subsystem
 - Compatible with most Arduino shields
 - Integrated lithium polymer battery charger, and optional battery clips for the standard 18650 size
+
+Current project status: in development
