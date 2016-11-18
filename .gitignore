@@ -5,6 +5,9 @@
 *.b#?
 *.l#?
 
+# Compiled C files
+*.o
+
 # Eagle project file
 # It contains a serial number and references to the file structure
 # on your computer.
@@ -35,3 +38,6 @@ eagle.epf
 
 *.eps
 .DS_Store
+*.lck
+*.zip
+*.job
