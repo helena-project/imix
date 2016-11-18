@@ -1,47 +1,17 @@
 # imix
 
-## Getting Started
+This open source, feature packed board is an all-in-one development kit for Internet-of-Things research and prototyping. With a Cortex M4 microcontroller, low power wireless communication, sensing, battery charging, and tons of I/O, Imix has everything you need to prototype and profile your next big IoT breakthrough. Pair Imix with the [Tock](http://github.com/helena-project/tock) operating system to quickly develop secure embedded applications.
 
-Requirements: 
-- JLink programmer 
-- ARM embedded toolchain
-- openocd
-- Exacto knife or other small blade
-- Optionally, a large (4.7 uF to 47 uF) capacitor.
-
-The current prototype version has several 'gotchas', and undoubtedly there will be more to come.
-Here is the procedure for setting up a new board to be programmed:
-
-1. Cut the RESET line between the FTDI chip and the MCU, as shown here:
-![Preview](https://github.com/helena-project/imix/blob/master/cut_reset.png)
-
-2. See https://github.com/helena-project/imix/issues/2 for instructions on how to power the board.
-
-3. Clone this repository. 
-4. Attach the JLink to the MCU serial wire debug connector on the board.
-4. From the `blinky_example` directory, connect to the board with `openocd`:
-  ```
-  openocd -f connect.cfg
-  ```
-
-4. From a separate terminal, keeping `openocd` running in the background, run:
-  ```
-  telnet localhost 4444
-  ```
-
-5. In `telnet`, you will need to run the following commands:
-  ```
-  reset halt
-  flash protect 0 0 10 off
-  exit
-  ```
-  This disables flash write protection, which is originally set when the MCU ships from the factory. Steps 6 and 7 only ever need to be run once, the very first time the board is set up.
-
-6. To build `blinky`, run `make`.
-
-6. To load the `blinky` program and debug it with `gdb`, do the following:
-  ```
-  arm-none-eabi-gdb -x debug.gdb blinky
-  ```
-
-If you let the program run, you should see the user LED blink once per second (toggle twice per second).
+- Codeveloped with [Tock](http://github.com/helena-project/tock), a next-generation secure embedded operating system
+- ATMEL SAM4L low power microcontroller with a Cortex M4 core
+- NRF51422 radio with a Cortex M0 core for communication over Bluetooth Low Energy or ANT
+- AT86RF233 radio for communication over 802.15.4
+- Low power 3-axis linear accelerometer + 3-axis magnetometer
+- Temperature + humidity sensor
+- Digital light sensor
+- Serial-to-USB and native USB ports
+- Auditable True Random Number Generator
+- Individually turn each subsystem completely on or off
+- Easily measure the power consumption of each subsystem
+- Compatible with most Arduino shields
+- Integrated lithium polymer battery charger, and optional battery clips for the standard 18650 size
