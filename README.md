@@ -1,6 +1,16 @@
-# imix
+Imix
+====
 
-This open source, feature packed board is an all-in-one development kit for Internet-of-Things research and prototyping. With a Cortex M4 microcontroller, low power wireless communication, sensing, battery charging, and tons of I/O, Imix has everything you need to prototype and profile your next big IoT breakthrough. Pair Imix with the [Tock](http://github.com/helena-project/tock) operating system to quickly develop secure embedded applications.
+![Imix](media/imix-on-table.jpg)
+
+This open source, feature packed board is an all-in-one development kit for
+Internet-of-Things research and prototyping. With a Cortex M4 microcontroller,
+low power wireless communication, sensing, battery charging, and tons of I/O,
+Imix has everything you need to prototype and profile your next big IoT
+breakthrough. Pair Imix with the [Tock](http://github.com/helena-project/tock)
+operating system to quickly develop secure embedded applications.
+
+[Buy one today on Crowd Supply!](https://www.crowdsupply.com/helena-project/imix)
 
 - Codeveloped with [Tock](http://github.com/helena-project/tock), a next-generation secure embedded operating system
 - ATMEL SAM4L low power microcontroller with a Cortex M4 core
