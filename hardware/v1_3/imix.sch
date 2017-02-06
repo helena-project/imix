@@ -16462,6 +16462,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FRAME14" library="imix" deviceset="DOCFIELD" device="" value="Accelerometer, temperature, light sensor"/>
 <part name="FRAME15" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME16" library="imix" deviceset="DOCFIELD" device="" value="True Random Number Generator (Lampert Circuit)"/>
+<part name="R8" library="imix" deviceset="RESISTOR" device="0603-RES" value="1K"/>
 </parts>
 <sheets>
 <sheet>
@@ -17409,11 +17410,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="208.28" y1="86.36" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
 <label x="210.82" y="86.36" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="45.72" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
-<label x="48.26" y="121.92" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="15"/>
-</segment>
 </net>
 <net name="USART0_RX" class="0">
 <segment>
@@ -17915,6 +17911,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J1" gate="G$1" pin="20"/>
 <wire x1="83.82" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 <label x="96.52" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DTR" class="0">
+<segment>
+<wire x1="45.72" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<label x="48.26" y="121.92" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="15"/>
 </segment>
 </net>
 </nets>
@@ -18587,6 +18590,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND5" gate="G$1" x="190.5" y="104.14"/>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
 <instance part="FRAME12" gate="G$1" x="170.18" y="0"/>
+<instance part="R8" gate="G$1" x="147.32" y="121.92" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -18782,11 +18786,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="137.16" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="!RESET" class="0">
+<net name="DTR" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="!DTR"/>
-<wire x1="132.08" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
-<label x="137.16" y="121.92" size="1.778" layer="95"/>
+<wire x1="132.08" y1="121.92" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<label x="134.62" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!RESET" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
+<label x="154.94" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
