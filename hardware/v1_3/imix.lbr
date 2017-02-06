@@ -8240,7 +8240,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pin name="VDDANA" x="-5.08" y="40.64" length="middle"/>
 <pin name="VDDCORE" x="-5.08" y="33.02" length="middle"/>
 <pin name="VDDIN" x="-5.08" y="48.26" length="middle"/>
-<pin name="VDDIO" x="-5.08" y="45.72" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-5.08" y="45.72" length="middle"/>
 <pin name="VDDOUT" x="-5.08" y="30.48" length="middle"/>
 <pin name="VLCD" x="33.02" y="73.66" length="middle" rot="R180"/>
 <pin name="VLCDIN" x="-5.08" y="43.18" length="middle"/>
