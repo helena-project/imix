@@ -19093,14 +19093,10 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <wire x1="48.26" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <junction x="48.26" y="58.42"/>
 <junction x="40.64" y="58.42"/>
-<wire x1="55.88" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="78.74" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <junction x="53.34" y="63.5"/>
 <wire x1="53.34" y1="76.2" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
-<junction x="53.34" y="76.2"/>
 <pinref part="U1" gate="G$1" pin="!CE"/>
-<pinref part="U1" gate="G$1" pin="EN1"/>
 <pinref part="U1" gate="G$1" pin="EN2"/>
 <pinref part="U1" gate="G$1" pin="TMR"/>
 <pinref part="U1" gate="G$1" pin="TD"/>
@@ -19292,11 +19288,16 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
 <junction x="40.64" y="86.36"/>
 <label x="38.1" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
+<pinref part="U1" gate="G$1" pin="EN1"/>
+<wire x1="55.88" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="78.74" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<junction x="53.34" y="86.36"/>
 </segment>
 </net>
 <net name="N$47" class="0">
