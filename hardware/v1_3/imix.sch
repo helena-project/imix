@@ -13293,13 +13293,6 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <label x="60.96" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPIO8" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="PC25"/>
-<wire x1="83.82" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
-<label x="60.96" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="USART2_CTS" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PC08"/>
@@ -13342,42 +13335,42 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <pinref part="U6" gate="G$1" pin="PA26"/>
 </segment>
 </net>
-<net name="ADCIFE0" class="0">
+<net name="ADCIFE1" class="0">
 <segment>
 <wire x1="121.92" y1="134.62" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
 <label x="127" y="134.62" size="1.778" layer="95"/>
 <pinref part="U6" gate="G$1" pin="PA05"/>
 </segment>
 </net>
-<net name="ADCIFE1" class="0">
+<net name="ADCIFE2" class="0">
 <segment>
 <wire x1="121.92" y1="129.54" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
 <label x="127" y="129.54" size="1.778" layer="95"/>
 <pinref part="U6" gate="G$1" pin="PA07"/>
 </segment>
 </net>
-<net name="ADCIFE2" class="0">
+<net name="ADCIFE3" class="0">
 <segment>
 <wire x1="83.82" y1="167.64" x2="50.8" y2="167.64" width="0.1524" layer="91"/>
 <label x="68.58" y="167.64" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U6" gate="G$1" pin="PB02"/>
 </segment>
 </net>
-<net name="ADCIFE3" class="0">
+<net name="ADCIFE4" class="0">
 <segment>
 <wire x1="83.82" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
 <label x="68.58" y="165.1" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U6" gate="G$1" pin="PB03"/>
 </segment>
 </net>
-<net name="ADCIFE4" class="0">
+<net name="ADCIFE5" class="0">
 <segment>
 <wire x1="83.82" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
 <label x="68.58" y="162.56" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U6" gate="G$1" pin="PB04"/>
 </segment>
 </net>
-<net name="ADCIFE5" class="0">
+<net name="VHIGHSAMPLE" class="0">
 <segment>
 <wire x1="83.82" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
 <label x="68.58" y="160.02" size="1.778" layer="95" rot="MR0"/>
@@ -13404,9 +13397,9 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 </net>
 <net name="LIGHT_!INT" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="PA04"/>
-<wire x1="121.92" y1="137.16" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
-<label x="127" y="137.16" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="PC25"/>
+<wire x1="83.82" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
+<label x="60.96" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXTINT1" class="0">
@@ -13498,6 +13491,20 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <pinref part="U6" gate="G$1" pin="PC31"/>
 <wire x1="83.82" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 <label x="60.96" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADCIFE0" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="PA04"/>
+<wire x1="121.92" y1="137.16" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
+<label x="127" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO8" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="PA20"/>
+<wire x1="121.92" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
+<label x="127" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -13712,13 +13719,6 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <wire x1="208.28" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="210.82" y="119.38" size="1.778" layer="95"/>
 <pinref part="J2_3_5_AND_6" gate="G$1" pin="D8"/>
-</segment>
-</net>
-<net name="ADCIFE5" class="0">
-<segment>
-<wire x1="182.88" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
-<label x="170.18" y="127" size="1.778" layer="95"/>
-<pinref part="J2_3_5_AND_6" gate="G$1" pin="A5"/>
 </segment>
 </net>
 <net name="TRNG_OUT" class="0">
@@ -13936,41 +13936,6 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <label x="142.24" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADCIFE0" class="0">
-<segment>
-<wire x1="182.88" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
-<label x="170.18" y="139.7" size="1.778" layer="95"/>
-<pinref part="J2_3_5_AND_6" gate="G$1" pin="A0"/>
-</segment>
-</net>
-<net name="ADCIFE1" class="0">
-<segment>
-<wire x1="182.88" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
-<label x="170.18" y="137.16" size="1.778" layer="95"/>
-<pinref part="J2_3_5_AND_6" gate="G$1" pin="A1"/>
-</segment>
-</net>
-<net name="ADCIFE2" class="0">
-<segment>
-<wire x1="182.88" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
-<label x="170.18" y="134.62" size="1.778" layer="95"/>
-<pinref part="J2_3_5_AND_6" gate="G$1" pin="A2"/>
-</segment>
-</net>
-<net name="ADCIFE3" class="0">
-<segment>
-<wire x1="182.88" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
-<label x="170.18" y="132.08" size="1.778" layer="95"/>
-<pinref part="J2_3_5_AND_6" gate="G$1" pin="A3"/>
-</segment>
-</net>
-<net name="ADCIFE4" class="0">
-<segment>
-<wire x1="182.88" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
-<label x="170.18" y="129.54" size="1.778" layer="95"/>
-<pinref part="J2_3_5_AND_6" gate="G$1" pin="A4"/>
-</segment>
-</net>
 <net name="LIGHT_!INT" class="0">
 <segment>
 <wire x1="58.42" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
@@ -14109,6 +14074,48 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <wire x1="45.72" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
 <label x="48.26" y="121.92" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="15"/>
+</segment>
+</net>
+<net name="ADCIFE0" class="0">
+<segment>
+<wire x1="182.88" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
+<label x="170.18" y="139.7" size="1.778" layer="95"/>
+<pinref part="J2_3_5_AND_6" gate="G$1" pin="A0"/>
+</segment>
+</net>
+<net name="ADCIFE1" class="0">
+<segment>
+<wire x1="182.88" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
+<label x="170.18" y="137.16" size="1.778" layer="95"/>
+<pinref part="J2_3_5_AND_6" gate="G$1" pin="A1"/>
+</segment>
+</net>
+<net name="ADCIFE2" class="0">
+<segment>
+<wire x1="182.88" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
+<label x="170.18" y="134.62" size="1.778" layer="95"/>
+<pinref part="J2_3_5_AND_6" gate="G$1" pin="A2"/>
+</segment>
+</net>
+<net name="ADCIFE3" class="0">
+<segment>
+<wire x1="182.88" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+<label x="170.18" y="132.08" size="1.778" layer="95"/>
+<pinref part="J2_3_5_AND_6" gate="G$1" pin="A3"/>
+</segment>
+</net>
+<net name="ADCIFE4" class="0">
+<segment>
+<wire x1="182.88" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<label x="170.18" y="129.54" size="1.778" layer="95"/>
+<pinref part="J2_3_5_AND_6" gate="G$1" pin="A4"/>
+</segment>
+</net>
+<net name="ADCIFE5" class="0">
+<segment>
+<wire x1="182.88" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
+<label x="170.18" y="127" size="1.778" layer="95"/>
+<pinref part="J2_3_5_AND_6" gate="G$1" pin="A5"/>
 </segment>
 </net>
 </nets>
