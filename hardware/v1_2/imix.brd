@@ -6148,7 +6148,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="27.9" y1="28.4" x2="31.6" y2="30.3" width="0.1524" layer="1" curve="42.217244"/>
 <wire x1="31.6" y1="30.3" x2="36.4" y2="35.2" width="0.1524" layer="1"/>
 </signal>
-<signal name="ADCIFE0">
+<signal name="ADCIFE1">
 <contactref element="U6" pad="25"/>
 <contactref element="J2_3_5_AND_6" pad="A0"/>
 <wire x1="67.5" y1="15" x2="58" y2="24.5" width="0.1524" layer="16"/>
@@ -6162,7 +6162,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="56" y1="25.878675" x2="56" y2="24.75" width="0.1524" layer="1"/>
 <wire x1="56" y1="24.75" x2="56.25" y2="24.5" width="0.1524" layer="1"/>
 </signal>
-<signal name="ADCIFE1">
+<signal name="ADCIFE2">
 <contactref element="U6" pad="31"/>
 <contactref element="J2_3_5_AND_6" pad="A1"/>
 <via x="61.5" y="22" extent="1-16" drill="0.3302"/>
@@ -6176,7 +6176,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="62" y1="25.55025" x2="62" y2="22.5" width="0.1524" layer="1"/>
 <wire x1="62" y1="22.5" x2="61.5" y2="22" width="0.1524" layer="1"/>
 </signal>
-<signal name="ADCIFE2">
+<signal name="ADCIFE3">
 <contactref element="U6" pad="22"/>
 <contactref element="J2_3_5_AND_6" pad="A2"/>
 <wire x1="74.32" y1="11.54" x2="72.78" y2="10" width="0.1524" layer="16"/>
@@ -6191,7 +6191,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="55.5" y1="23.75" x2="54" y2="25.25" width="0.1524" layer="16"/>
 <wire x1="54" y1="25.25" x2="54" y2="25.5" width="0.1524" layer="16"/>
 </signal>
-<signal name="ADCIFE3">
+<signal name="ADCIFE4">
 <contactref element="U6" pad="23"/>
 <contactref element="J2_3_5_AND_6" pad="A3"/>
 <wire x1="76.86" y1="11.54" x2="74.82" y2="9.5" width="0.1524" layer="16"/>
@@ -6207,7 +6207,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="54" y1="24" x2="54" y2="23.75" width="0.1524" layer="1"/>
 <wire x1="54.75" y1="23" x2="54" y2="23.75" width="0.1524" layer="16"/>
 </signal>
-<signal name="ADCIFE4">
+<signal name="ADCIFE5">
 <contactref element="U6" pad="28"/>
 <contactref element="J2_3_5_AND_6" pad="A4"/>
 <via x="61.25" y="25" extent="1-16" drill="0.3302"/>
@@ -6221,7 +6221,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="58.767765625" y1="26.6611625" x2="60.428928125" y2="25" width="0.1524" layer="1"/>
 <wire x1="60.428928125" y1="25" x2="61.25" y2="25" width="0.1524" layer="1"/>
 </signal>
-<signal name="ADCIFE5">
+<signal name="ADCIFE6">
 <contactref element="U6" pad="29"/>
 <contactref element="J2_3_5_AND_6" pad="A5"/>
 <via x="60.75" y="25.75" extent="1-16" drill="0.3302"/>
