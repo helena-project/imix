@@ -7558,33 +7558,36 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="67.31" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="10.16" x2="67.31" y2="10.16" width="0.1016" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="67.31" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="10.16" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="67.31" y1="5.08" x2="67.31" y2="0" width="0.1016" layer="94"/>
+<wire x1="67.31" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="67.31" y1="10.16" x2="0" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="67.31" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
 <wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
-<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
-<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<wire x1="0" y1="10.16" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="27.94" x2="0" y2="27.94" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="27.94" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="67.31" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="67.31" y1="15.24" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="27.94" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="10.16" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">DATE:</text>
+<text x="15.24" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="68.58" y="1.27" size="2.54" layer="94">SHEET:</text>
+<text x="83.82" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="68.58" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">TITLE:</text>
+<text x="1.524" y="6.35" size="2.54" layer="94">AUTHOR:</text>
+<text x="17.78" y="11.43" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<wire x1="67.31" y1="15.24" x2="67.31" y2="10.16" width="0.1016" layer="94"/>
+<text x="20.32" y="6.604" size="2.54" layer="94">&gt;AUTHOR</text>
+<text x="48.26" y="21.59" size="2.54" layer="94" align="center">&gt;VALUE</text>
+<text x="77.978" y="11.43" size="2.54" layer="94">&gt;REVISION</text>
 </symbol>
 <symbol name="BALUN">
 <description>Johanson Technology Balun matched for the AT86RF232 and AT86RF233 chipsets.</description>
@@ -12388,7 +12391,7 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Shane Leonard"/>
-<attribute name="REVISION" value="1.2"/>
+<attribute name="REVISION" value="1.3"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -12428,7 +12431,7 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <part name="R1" library="imix" deviceset="RESISTOR" device="0603-RES" value="4.7K"/>
 <part name="R2" library="imix" deviceset="RESISTOR" device="0603-RES" value="4.7K"/>
 <part name="R24" library="imix" deviceset="RESISTOR" device="0603-RES" value="1K"/>
-<part name="LED5" library="imix" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="LED5" library="imix" deviceset="LED-BLUE" device="0603"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="SW2" library="imix" deviceset="TAC_SWITCH" device="SMD" value="TAC_SWITCHSMD"/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
@@ -12454,7 +12457,7 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="R21" library="imix" deviceset="RESISTOR" device="0603-RES" value="1K"/>
-<part name="LED3" library="imix" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="LED3" library="imix" deviceset="LED-BLUE" device="0603"/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="D9" library="imix" deviceset="DIODE" device="BAS16" value="250mA/100V"/>
 <part name="D3" library="imix" deviceset="DIODE" device="BAS16" value="250mA/100V"/>
@@ -12491,7 +12494,7 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="U6" library="imix" deviceset="ATSAM4LCX_100" device=""/>
 <part name="R20" library="imix" deviceset="RESISTOR" device="0603-RES" value="1K"/>
-<part name="LED2" library="imix" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="LED2" library="imix" deviceset="LED-BLUE" device="0603"/>
 <part name="C14" library="imix" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="R18" library="imix" deviceset="RESISTOR" device="0603-RES" value="DNP"/>
 <part name="R16" library="imix" deviceset="RESISTOR" device="0603-RES" value="10K"/>
@@ -12572,7 +12575,7 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <part name="R12" library="imix" deviceset="RESISTOR" device="0603-RES" value="DNP"/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R34" library="imix" deviceset="RESISTOR" device="0603-RES" value="1K"/>
-<part name="LED4" library="imix" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="LED4" library="imix" deviceset="LED-BLUE" device="0603"/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="J2_3_5_AND_6" library="imix" deviceset="ARDUINO_R3" device="NO_HOLES"/>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
@@ -12656,6 +12659,9 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <part name="GND65" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="U18" library="shaneleonard-master-lbr" deviceset="74LVC4066" device="BQ"/>
 <part name="GND66" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
+<part name="R19" library="imix" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="LED1" library="imix" deviceset="LED-BLUE" device="0603"/>
+<part name="GND67" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12707,7 +12713,9 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <attribute name="NAME" x="157.099" y="143.764" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="165.481" y="143.764" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SW1" gate="S" x="213.36" y="157.48" rot="MR90"/>
+<instance part="SW1" gate="S" x="213.36" y="157.48" smashed="yes" rot="MR90">
+<attribute name="NAME" x="219.71" y="154.94" size="1.778" layer="95" rot="MR90"/>
+</instance>
 <instance part="R33" gate="G$1" x="210.82" y="175.26" rot="R90"/>
 <instance part="GND7" gate="G$1" x="15.24" y="78.74"/>
 <instance part="GND8" gate="G$1" x="210.82" y="144.78" rot="MR0"/>
@@ -12731,7 +12739,9 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <instance part="R24" gate="G$1" x="152.4" y="45.72" rot="MR270"/>
 <instance part="LED5" gate="G$1" x="152.4" y="38.1"/>
 <instance part="GND18" gate="G$1" x="152.4" y="30.48"/>
-<instance part="SW2" gate="S" x="248.92" y="157.48" rot="MR90"/>
+<instance part="SW2" gate="S" x="248.92" y="157.48" smashed="yes" rot="MR90">
+<attribute name="NAME" x="255.27" y="154.94" size="1.778" layer="95" rot="MR90"/>
+</instance>
 <instance part="GND37" gate="G$1" x="246.38" y="144.78"/>
 <instance part="R3" gate="G$1" x="246.38" y="175.26" rot="R90"/>
 <instance part="X2" gate="G$1" x="154.94" y="149.86" smashed="yes" rot="R90">
@@ -12745,6 +12755,9 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <instance part="TC2" gate="A" x="233.68" y="109.22"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$1" x="170.18" y="0"/>
+<instance part="R19" gate="G$1" x="50.8" y="55.88" rot="MR270"/>
+<instance part="LED1" gate="G$1" x="50.8" y="45.72"/>
+<instance part="GND67" gate="G$1" x="50.8" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -12913,6 +12926,11 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <junction x="81.28" y="91.44"/>
 <pinref part="U6" gate="G$1" pin="ADVREFN"/>
 <wire x1="81.28" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND67" gate="G$1" pin="GND"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="50.8" y1="38.1" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWDIO/TMS" class="0">
@@ -13505,6 +13523,21 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 <pinref part="U6" gate="G$1" pin="PA20"/>
 <wire x1="121.92" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
 <label x="127" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="48.26" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="KERNEL_LED" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="U6" gate="G$1" pin="PC22"/>
+<wire x1="50.8" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
+<label x="60.96" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

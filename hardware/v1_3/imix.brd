@@ -651,6 +651,7 @@ June 2016</text>
 <text x="13.23" y="23.19" size="0.762" layer="22" font="vector" ratio="10" rot="MR90">R8</text>
 <text x="59.4" y="-5.2" size="0.762" layer="21" font="vector" ratio="12">B2</text>
 <wire x1="8" y1="7.3" x2="11" y2="7.3" width="0.4064" layer="21"/>
+<text x="65.42020625" y="43.985353125" size="0.762" layer="21" font="vector" ratio="12" rot="R45">R19</text>
 </plain>
 <libraries>
 <library name="SparkFun-Retired">
@@ -2281,19 +2282,19 @@ Please make sure your boards conform to these design rules.</description>
 <element name="J4.1" library="imix" package="1X02_NO_SILK" value="" x="20.34" y="25.4"/>
 <element name="L1" library="imix" package="L0603" value="BLM18HE152SN1" x="69.25" y="40" rot="R90"/>
 <element name="L2" library="imix" package="L1212" value="22uH LQH3NPN220MJ0" x="49.715" y="23.605" rot="R315"/>
-<element name="LED2" library="imix" package="LED-0603" value="BLUE" x="3" y="44.5" smashed="yes" rot="R90">
+<element name="LED2" library="imix" package="LED-0603" value="" x="3" y="44.5" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="DIO-08575" x="3" y="44.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="2.989" y="43.4015" size="0.5" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="2.989" y="45.6015" size="0.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="NAME" x="3.2" y="44.5" size="0.6" layer="51" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="LED4" library="imix" package="LED-0603" value="BLUE" x="52.846" y="1.38" rot="R270">
+<element name="LED4" library="imix" package="LED-0603" value="" x="52.846" y="1.38" rot="R270">
 <attribute name="PROD_ID" value="DIO-08575" x="52.846" y="1.38" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LED5" library="imix" package="LED-0603" value="BLUE" x="84" y="31.5" rot="R270">
+<element name="LED5" library="imix" package="LED-0603" value="" x="84" y="31.5" rot="R270">
 <attribute name="PROD_ID" value="DIO-08575" x="84" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LED3" library="imix" package="LED-0603" value="BLUE" x="3" y="41.5" smashed="yes" rot="R90">
+<element name="LED3" library="imix" package="LED-0603" value="" x="3" y="41.5" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="DIO-08575" x="3" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="2.989" y="40.4015" size="0.5" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="2.989" y="42.6015" size="0.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
@@ -2493,6 +2494,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VPN" value="568-3019-1-ND" x="80.3" y="25.55" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="78.85" y="26.1" size="1.2" layer="52" font="vector" rot="MR180"/>
 <attribute name="NAME" x="79.25" y="28.4" size="0.762" layer="22" font="vector" ratio="12" rot="MR180"/>
+</element>
+<element name="R19" library="imix" package="0603-RES" value="1K" x="63.5207125" y="45.941421875" rot="R315"/>
+<element name="LED1" library="imix" package="LED-0603" value="" x="64.820709375" y="47.3393375" rot="R45">
+<attribute name="PROD_ID" value="DIO-08575" x="64.820709375" y="47.3393375" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3132,6 +3137,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="84.95" y1="78.3" x2="84.95" y2="77" width="0.4064" layer="1"/>
 <wire x1="84.95" y1="77" x2="83.5" y2="75.55" width="0.4064" layer="1"/>
 <wire x1="83.5" y1="75.55" x2="83.1" y2="75.55" width="0.4064" layer="1"/>
+<contactref element="LED1" pad="C"/>
 </signal>
 <signal name="SWDIO/TMS">
 <contactref element="U6" pad="19"/>
@@ -6051,6 +6057,16 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="58.95" y1="16.55" x2="55.65" y2="16.55" width="0.1524" layer="16"/>
 <wire x1="55.65" y1="16.55" x2="55.35" y2="16.85" width="0.1524" layer="16"/>
 <wire x1="55.55" y1="17.05" x2="55.35" y2="16.85" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="LED1" pad="A"/>
+<contactref element="R19" pad="2"/>
+<wire x1="64.121753125" y1="45.340378125" x2="65.440840625" y2="46.719203125" width="0.1524" layer="1"/>
+</signal>
+<signal name="KERNEL_LED">
+<contactref element="R19" pad="1"/>
+<contactref element="U6" pad="70"/>
+<wire x1="59.828425" y1="43.278171875" x2="62.91966875" y2="46.5424625" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <errors>
