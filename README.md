@@ -1,4 +1,4 @@
-Imix
+imix
 ====
 
 ![Imix](media/imix.jpeg)
