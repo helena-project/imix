@@ -12384,7 +12384,7 @@ NXP definition: http://www.nxp.com/documents/outline_drawing/SOT762-1.pdf</descr
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Shane Leonard"/>
-<attribute name="REVISION" value="1.3"/>
+<attribute name="REVISION" value="2.0"/>
 </attributes>
 <variantdefs>
 </variantdefs>
