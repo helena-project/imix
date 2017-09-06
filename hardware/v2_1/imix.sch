@@ -10162,7 +10162,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </package>
 <package name="DN007-2">
 <wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
-<wire x1="13.94" y1="3.61" x2="13.94" y2="2.4" width="0.25" layer="21"/>
 <smd name="FEED" x="2.22" y="-2.8" dx="0.46" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="GND@1" x="1.035" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="GND" x="-1.16" y="-2.93" dx="0.74" dy="1.01" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
@@ -10195,7 +10194,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <vertex x="2.325" y="-1.12"/>
 <vertex x="2.325" y="-2.4"/>
 </polygon>
-<wire x1="14.94" y1="3.61" x2="14.94" y2="2.4" width="0.25" layer="21"/>
 </package>
 <package name="DN007-3">
 <wire x1="-8.6" y1="-3.3" x2="16.9" y2="-3.3" width="0.127" layer="21" style="shortdash"/>
