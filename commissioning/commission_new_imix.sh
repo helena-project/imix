@@ -18,12 +18,12 @@ echo "Configuring this imix with ID: $1"
 echo ""
 
 echo "Configuring the FTDI with imix parameters..."
-#./ftx_prog --manufacturer MostlyTyped --product "imix IoT Module - TockOS" --new-serial-number $idnocolon > /dev/null
-#rc=$?;
-#if [[ $rc != 22 ]]; then
-#	echo "Error programming FTDI"
-#	exit 2
-#fi
+./ftx_prog --manufacturer MostlyTyped --product "imix IoT Module - TockOS" --new-serial-number $idnocolon > /dev/null
+rc=$?;
+if [[ $rc != 22 ]]; then
+	echo "Error programming FTDI"
+	exit 2
+fi
 echo "done"
 
 echo ""
@@ -53,8 +53,8 @@ make flash
 popd
 echo "done"
 
-echo "Flashing the blink app"
-pushd tock/userland/examples/blink
+echo "Flashing the imix app"
+pushd tock/userland/examples/tests/imix
 make
 tockloader install --jtag --erase
 popd
