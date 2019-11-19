@@ -4,3 +4,6 @@
 [submodule "commissioning/tock-nrf-serialization"]
 	path = commissioning/tock-nrf-serialization
 	url = https://github.com/helena-project/tock-nrf-serialization
+[submodule "commissioning/libtock-c"]
+	path = commissioning/libtock-c
+	url = https://github.com/tock/libtock-c.git
